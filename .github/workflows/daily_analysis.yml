@@ -101,7 +101,8 @@ jobs:
           # 搜索服务
           # ==========================================
           BOCHA_API_KEYS: ${{ secrets.BOCHA_API_KEYS }}
-          TAVILY_API_KEYS: ${{ secrets.TAVILY_API_KEYS }}
+          #TAVILY_API_KEYS: ${{ secrets.TAVILY_API_KEYS }}
+          TAVILY_API_KEYS: "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"
           SERPAPI_API_KEYS: ${{ secrets.SERPAPI_API_KEYS }}
           MINIMAX_API_KEYS: ${{ secrets.MINIMAX_API_KEYS }}
           BRAVE_API_KEYS: ${{ secrets.BRAVE_API_KEYS }}

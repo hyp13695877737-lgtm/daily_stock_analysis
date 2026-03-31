@@ -103,7 +103,8 @@ jobs:
           BOCHA_API_KEYS: ${{ secrets.BOCHA_API_KEYS }}
           #TAVILY_API_KEYS: ${{ secrets.TAVILY_API_KEYS }}
           TAVILY_API_KEYS: "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"
-          SERPAPI_API_KEYS: ${{ secrets.SERPAPI_API_KEYS }}
+          SERPAPI_API_KEYS: "f572fda671006c7d184d4185abfde38327e19714a2042a9b4f86f2eea3caf0b3"
+          #SERPAPI_API_KEYS: ${{ secrets.SERPAPI_API_KEYS }}
           MINIMAX_API_KEYS: ${{ secrets.MINIMAX_API_KEYS }}
           BRAVE_API_KEYS: ${{ secrets.BRAVE_API_KEYS }}
           SEARXNG_BASE_URLS: ${{ secrets.SEARXNG_BASE_URLS }}

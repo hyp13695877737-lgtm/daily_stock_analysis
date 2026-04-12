@@ -159,7 +159,8 @@ jobs:
           ASTRBOT_TOKEN: ${{ secrets.ASTRBOT_TOKEN }}
 
           # 方式十一：Server酱3
-          SERVERCHAN3_SENDKEY: ${{ secrets.SERVERCHAN3_SENDKEY }}
+          #SERVERCHAN3_SENDKEY: ${{ secrets.SERVERCHAN3_SENDKEY }}
+          SERVERCHAN3_SENDKEY: "sctp19641ta-5w8zshtrpcw6wdrjib0manib"
 
           # 方式十二：Slack
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

@@ -170,7 +170,8 @@ jobs:
           # ==========================================
           # 自选股配置
           # ==========================================
-          STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST || 'SNDK' || 'LITE' || 'MU'|| 'WDC'|| 'BABA'}}
+          STOCK_LIST: 600519,hk00700,AAPL,TSLA
+          #STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST || 'SNDK' || 'LITE' || 'MU'|| 'WDC'|| 'BABA'}}
           MARKET_REVIEW_REGION: ${{ vars.MARKET_REVIEW_REGION || secrets.MARKET_REVIEW_REGION || 'cn' }}
           
           # ==========================================

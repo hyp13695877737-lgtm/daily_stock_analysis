@@ -141,6 +141,8 @@ jobs:
           TELEGRAM_BOT_TOKEN: "8508673879:AAEqHXlEBCHYwniXiNdFstwh2A2zFWd_-Q8"
           TELEGRAM_CHAT_ID: "6966047794"
           TELEGRAM_MESSAGE_THREAD_ID: ${{ secrets.TELEGRAM_MESSAGE_THREAD_ID }}
+  
+          TICKFLOW_API_KEY: "tk_dfb6976a94334300a6fa6c08cac31200"
           
           # 方式四：邮件
           EMAIL_SENDER: ${{ vars.EMAIL_SENDER || secrets.EMAIL_SENDER }}

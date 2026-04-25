@@ -194,7 +194,7 @@ jobs:
           # ==========================================
           # 自选股配置
           # ==========================================
-          STOCK_LIST: AAPL,TSLA
+          STOCK_LIST: AAPL,TSLA,NVDA,SDNK,LITE,BABA,VRT
           #STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST || 'SNDK' || 'LITE' || 'MU'|| 'WDC'|| 'BABA'}}
           MARKET_REVIEW_REGION: ${{ vars.MARKET_REVIEW_REGION || secrets.MARKET_REVIEW_REGION || 'cn' }}
           
